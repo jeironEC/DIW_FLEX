@@ -1,0 +1,254 @@
+.num-exercici {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.el {
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 50%;
+    display: block;
+    font-size: 1.5em;
+    line-height: 3em;
+    width: 3em;
+}
+
+.contenidor {
+    display: flex;
+    border: 1px solid #000;
+}
+
+/* Exercici 1 */
+.contenidor3 {
+    justify-content: space-around;
+}
+
+.contenidor4 {
+    justify-content: end;
+    gap: 15px;
+}
+
+.contenidor5 {
+    justify-content: space-around;
+    height: 400px;
+}
+
+.contenidor6 {
+    align-items: center;
+    gap: 15px;
+    height: 400px;
+    justify-content: center;
+}
+
+.contenidor7 {
+    align-items: end;
+    gap: 15px;
+    height: 400px;
+    justify-content: end;
+}
+
+.contenidor8, .contenidor9, .contenidor10 {
+    flex-direction: column;
+    height: 400px;
+}
+
+.contenidor9 {
+    justify-content: space-between;
+}
+
+.contenidor10 {
+    justify-content: center; 
+    align-items: end;
+    gap: 15px;
+}
+
+
+/* Exercici 2 */
+.contenidor20 {
+    height: 400px;
+}
+
+.contenidor21, 
+.contenidor22, 
+.contenidor23, 
+.contenidor24,
+.contenidor25,
+.contenidor26,
+.contenidor27 {
+    flex-wrap: wrap;
+    height: 400px;
+}
+
+.contenidor21 .contenidor-el {
+    width: 25%;
+}
+
+.contenidor22 .contenidor-el, 
+.contenidor23 .contenidor-el, 
+.contenidor24 .contenidor-el,
+.contenidor25 .contenidor-el,
+.contenidor26 .contenidor-el {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+}
+
+.contenidor23, 
+.contenidor24,
+.contenidor25,
+.contenidor26 {
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.contenidor23 .contenidor-el, 
+.contenidor24 .contenidor-el,
+.contenidor25 .contenidor-el,
+.contenidor26 .contenidor-el {
+    width: 24%;
+}
+
+.contenidor24 .contenidor-el:nth-child(5),
+.contenidor25 .contenidor-el:nth-child(5),
+.contenidor26 .contenidor-el:nth-child(5) {
+    width: 100%;
+}
+
+.contenidor25 .contenidor-el:nth-child(8),
+.contenidor26 .contenidor-el:nth-child(8) {
+    width: 50%;
+}
+
+.contenidor26 .contenidor-el:nth-child(7) {
+    background-image: url("../img/image1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.contenidor27 {
+    flex-direction: column;
+}
+
+.contenidor27 .contenidor-el {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+}
+
+.contenidor27 .contenidor-el:nth-child(9) {
+    height: 100%;
+}
+
+.contenidor-el:nth-child(1) {
+    background-color: #99ff00;
+}
+
+.contenidor-el:nth-child(2) {
+    background-color: #8ed523;
+}
+
+.contenidor-el:nth-child(3) {
+    background-color: #3e6306;
+}
+
+.contenidor-el:nth-child(4) {
+    background-color: #99ff00;
+}
+
+.contenidor-el:nth-child(5) {
+    background-color: #8ed523;
+}
+
+.contenidor-el:nth-child(6) {
+    background-color: #3e6306;
+}
+
+.contenidor-el:nth-child(7) {
+    background-color: #99ff00;
+}
+
+.contenidor-el:nth-child(8) {
+    background-color: #8ed523;
+}
+
+.contenidor-el:nth-child(9) {
+    background-color: #3e6306;
+}
+
+.contenidor-el span {
+    text-align: center;
+}
+
+/* Exercici 3 */
+.menu {
+    display: flex;
+    border: 1px solid #000;
+    width: 100%;
+    height: 400px;
+}
+
+.menu31 {
+    flex-direction: column;
+}
+
+.menu31 .contenidor-enllac {
+    height: 100%;
+}
+
+.menu31 .enllac {
+    height: 100%;
+}
+
+.menu32 .contenidor-enllac,
+.menu33 .contenidor-enllac,
+.menu34 .contenidor-enllac,
+.menu35 .contenidor-enllac {
+    flex: 1;
+    height: 50px;
+}
+
+.menu31 .enllac,
+.menu32 .enllac,
+.menu33 .enllac,
+.menu34 .enllac,
+.menu35 .enllac {
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.menu34 .contenidor-enllac .enllac {
+    width: 100%;
+}
+
+.menu33 .enllac:hover,
+.menu34 .enllac:hover,
+.menu35 .enllac:hover {
+    color: #ff0000;
+    text-decoration: underline;
+}
+
+.contenidor-enllac:nth-child(1) {
+    background-color: #3e6306;
+}
+
+.contenidor-enllac:nth-child(2) {
+    background-color: #78c800;
+}
+
+.contenidor-enllac:nth-child(3) {
+    background-color: #a6dd52;
+}
+
+.contenidor-enllac:nth-child(4) {
+    background-color: #3a5412;
+}
+
+.contenidor-enllac:nth-child(5) {
+    background-color: #162401;
+}
